@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:id="@+id/splashFragment"
+    tools:context=".ui.SplashFragment"
     android:background="@color/color_default"
     android:gravity="center">
-
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/ic_logo" />
-
+        android:src="@drawable/ic_outline_anchor_24"
+        />
 </LinearLayout>
