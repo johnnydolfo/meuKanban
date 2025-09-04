@@ -1,13 +1,12 @@
-package com.anaju.task.ui
-
+package com.joaorodolfo.meukanban.ui
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.anaju.task.R
-import com.anaju.task.databinding.FragmentHomeBinding
-import com.anaju.task.ui.adapter.ViewPagerAdapter
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.databinding.FragmentHomeBinding
+import com.joaorodolfo.meukanban.ui.adapter.ViewPagerAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 
 

@@ -1,5 +1,4 @@
-package com.anaju.task.ui
-
+package com.joaorodolfo.meukanban.ui
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -8,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.anaju.task.R
-import com.anaju.task.databinding.FragmentSplashBinding
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.databinding.FragmentSplashBinding
 
 
 class SplashFragment : Fragment() {

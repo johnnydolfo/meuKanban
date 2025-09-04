@@ -1,5 +1,4 @@
-package com.anaju.task.ui.auth
-
+package com.joaorodolfo.meukanban.ui.auth
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater

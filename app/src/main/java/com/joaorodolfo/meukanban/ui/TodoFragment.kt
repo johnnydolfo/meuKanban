@@ -1,5 +1,4 @@
-package com.anaju.task.ui
-
+package com.joaorodolfo.meukanban.ui
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.anaju.task.R
-import com.anaju.task.data.model.Status
-import com.anaju.task.data.model.Task
-import com.anaju.task.databinding.FragmentTodoBinding
-import com.anaju.task.ui.adapter.TaskAdapter
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.data.model.Status
+import com.joaorodolfo.meukanban.data.model.Task
+import com.joaorodolfo.meukanban.databinding.FragmentTodoBinding
+import com.joaorodolfo.meukanban.ui.adapter.TaskAdapter
 import kotlin.math.truncate
 
 

@@ -1,4 +1,4 @@
-package com.anaju.task.ui.adapter
+package com.joaorodolfo.meukanban.ui.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

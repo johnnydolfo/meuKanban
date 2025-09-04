@@ -1,4 +1,4 @@
-package com.anaju.task
+package com.joaorodolfo.meukanban
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

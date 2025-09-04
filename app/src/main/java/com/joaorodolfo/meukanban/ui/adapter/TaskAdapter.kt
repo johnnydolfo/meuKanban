@@ -1,4 +1,4 @@
-package com.anaju.task.ui.adapter
+package com.joaorodolfo.meukanban.ui.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.anaju.task.R
-import com.anaju.task.data.model.Status
-import com.anaju.task.data.model.Task
-import com.anaju.task.databinding.ItemTaskBinding
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.data.model.Status
+import com.joaorodolfo.meukanban.data.model.Task
+import com.joaorodolfo.meukanban.databinding.ItemTaskBinding
 
 class TaskAdapter(
     private val context: Context,
