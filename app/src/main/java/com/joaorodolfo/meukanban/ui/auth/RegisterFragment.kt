@@ -8,12 +8,13 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.anaju.task.R
-import com.anaju.task.databinding.FragmentLoginBinding
+import com.anaju.task.databinding.FragmentRegisterBinding
+import com.anaju.task.util.initToolbar
 import com.anaju.task.util.showBottomSheet
 
-class LoginFragment : Fragment() {
+class RegisterFragment : Fragment() {
 
-    private var _binding: FragmentLoginBinding? = null
+    private var _binding: FragmentRegisterBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -21,24 +22,20 @@ class LoginFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentLoginBinding.inflate(inflater, container, false)
+        // Inflate the layout for this fragment
+        _binding = FragmentRegisterBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initToolbar(binding.toolbar)
         initListener()
     }
 
     private fun initListener(){
-        binding.buttonLogin.setOnClickListener {
+        binding.buttonCriarconta.setOnClickListener{
             valideData()
-        }
-        binding.textViewCriarConta.setOnClickListener {
-            findNavController().navigate(R.id.action_loginFragment_to_registerFragment)
-        }
-        binding.textViewRecuperarConta.setOnClickListener {
-            findNavController().navigate(R.id.action_loginFragment_to_recoverAccountFragment)
         }
     }
 
@@ -49,13 +46,12 @@ class LoginFragment : Fragment() {
             if (senha.isNotBlank()) {
                 findNavController().navigate(R.id.action_global_homeFragment)
             } else {
-                showBottomSheet(message = getString(R.string.password_empty))
+                showBottomSheet(message = getString(R.string.password_empty_register_gragment))
             }
         }else{
-            showBottomSheet(message = getString(R.string.email_empty))
+            showBottomSheet(message = getString(R.string.email_empty_register_fragment))
         }
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()
