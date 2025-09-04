@@ -1,4 +1,4 @@
-package com.anaju.task.data.model
+package com.joaorodolfo.meukanban.data.model
 
 enum class Status {
     TODO,

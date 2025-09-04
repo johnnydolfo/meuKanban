@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import com.anaju.task.R
-import com.anaju.task.databinding.FragmentLoginBinding
-import com.anaju.task.util.showBottomSheet
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.databinding.FragmentLoginBinding
+import com.joaorodolfo.meukanban.util.showBottomSheet
 
 class LoginFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.anaju.task.data.model
+package com.joaorodolfo.meukanban.data.model
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 

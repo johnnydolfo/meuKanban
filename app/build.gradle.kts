@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.anaju.task"
+    namespace = "com.joaorodolfo.meukanban"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.anaju.task"
+        applicationId = "com.joaorodolfo.meukanban"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -34,8 +34,8 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    viewBinding {
-        enable=true
+    buildFeatures {
+        viewBinding = true
     }
 }
 

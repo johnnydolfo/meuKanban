@@ -6,10 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import com.anaju.task.R
-import com.anaju.task.databinding.FragmentRecoverAccountBinding
-import com.anaju.task.util.initToolbar
-import com.anaju.task.util.showBottomSheet
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.databinding.FragmentRecoverAccountBinding
+import com.joaorodolfo.meukanban.util.initToolbar
+import com.joaorodolfo.meukanban.util.showBottomSheet
 
 class RecoverAccountFragment : Fragment() {
 

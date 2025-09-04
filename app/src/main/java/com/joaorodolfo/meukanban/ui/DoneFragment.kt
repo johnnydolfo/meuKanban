@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.anaju.task.R
-import com.anaju.task.data.model.Status
-import com.anaju.task.data.model.Task
-import com.anaju.task.databinding.FragmentDoneBinding
-import com.anaju.task.ui.adapter.TaskAdapter
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.data.model.Status
+import com.joaorodolfo.meukanban.data.model.Task
+import com.joaorodolfo.meukanban.databinding.FragmentDoneBinding
+import com.joaorodolfo.meukanban.ui.adapter.TaskAdapter
 
 class DoneFragment : Fragment() {
 

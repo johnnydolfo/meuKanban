@@ -1,10 +1,10 @@
-package com.anaju.task.util
+package com.joaorodolfo.meukanban.util
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
-import com.anaju.task.R
-import com.anaju.task.databinding.BottomSheetBinding
+import com.joaorodolfo.meukanban.R
+import com.joaorodolfo.meukanban.databinding.BottomSheetBinding
 import com.google.android.material.bottomsheet.BottomSheetDialog
 
 
