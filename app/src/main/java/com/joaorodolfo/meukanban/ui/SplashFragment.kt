@@ -1,27 +1,42 @@
-package com.joaorodolfo.meukanban.ui
+package com.anaju.task.ui
 
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.joaorodolfo.meukanban.R
-import com.joaorodolfo.meukanban.databinding.FragmentSplashBinding
+import androidx.navigation.fragment.findNavController
+import com.anaju.task.R
+import com.anaju.task.databinding.FragmentSplashBinding
+
 
 class SplashFragment : Fragment() {
+
     private var _binding: FragmentSplashBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentSplashBinding.inflate(inflater, container, false)
-        return inflater.inflate(R.layout.fragment_splash, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        Handler(Looper.getMainLooper()).postDelayed({checkAuth()},3000)
+    }
+
+    private fun checkAuth(){
+        findNavController().navigate(R.id.action_splashFragment_to_autentication)
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding=null
+        _binding = null
     }
 }
