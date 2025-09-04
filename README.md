@@ -1,2 +1,2 @@
-﻿# como fiz o trabalho no computador do meu irmão, o envio consta como "Chutulio" (o usuário dele no github)
-
+Kanban - Mobile II
+João Rodolfo Berger Andrade
