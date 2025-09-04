@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Meukanban"
+rootProject.name = "Task"
 include(":app")
