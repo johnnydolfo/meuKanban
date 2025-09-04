@@ -68,11 +68,11 @@ class TodoFragment : Fragment() {
     }
 
     private fun getTask() = listOf(
-        Task("0", "Desenvolver modo offline no app",Status.TODO),
-        Task("1","Criar página de suporte ao cliente",Status.TODO),
-        Task("2","Adicionar funcionalidade de chat em tempo real",Status.TODO),
-        Task("3", "Adicionar suporte a vários idiomas",Status.TODO),
-        Task("4","Implementar sistema de favoritos",Status.TODO),
+        Task("0", "Refinar a estrutura do app",Status.TODO),
+        Task("1","Criar recursos de bate-papo inteligente",Status.TODO),
+        Task("2","Lidar com a criptografia ponta a ponta",Status.TODO),
+        Task("3", "Implementar recursos de acessibilidade digital",Status.TODO),
+        Task("4","Oferecer outras opções de login",Status.TODO),
     )
 
     override fun onDestroyView() {

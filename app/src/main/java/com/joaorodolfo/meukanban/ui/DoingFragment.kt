@@ -69,11 +69,11 @@ class DoingFragment : Fragment() {
     }
 
     private fun getTask() = listOf(
-        Task("0", "Adicionar animações de transição entre telas", Status.DOING),
-        Task("1","Implementar funcionalidades de filtros de busca", Status.DOING),
-        Task("2","Desenvolver tela de histórico de atividades", Status.DOING),
-        Task("3", "Criar painel de administração", Status.DOING),
-        Task("4","Desenvolver integração com Google Drive", Status.DOING),
+        Task("0", "Adicionar opção de anexar arquivos nas tarefas", Status.DOING),
+        Task("1","Configurar notificações push para prazos", Status.DOING),
+        Task("2","Permitir arrastar e soltar tarefas entre colunas", Status.DOING),
+        Task("3", "Criar modo escuro (Dark Mode)", Status.DOING),
+        Task("4","Adicionar suporte a múltiplos idiomas", Status.DOING),
     )
 
     override fun onDestroyView() {

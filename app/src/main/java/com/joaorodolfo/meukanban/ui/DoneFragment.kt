@@ -66,11 +66,11 @@ class DoneFragment : Fragment() {
     }
 
     private fun getTask() = listOf(
-        Task("0", "Adicionar funcionalidade de backup de dados na nuvem", Status.DONE),
-        Task("1","Integrar sistema de feedback de usuários", Status.DONE),
-        Task("2","Criar tela de tutorial inicial para novos usuários", Status.DONE),
-        Task("3", "Criar fluxo de recuperação de senha", Status.DONE),
-        Task("4","Desenvolver tela de histórico de atividades", Status.DONE),
+        Task("0", "Gerar relatórios de produtividade", Status.DONE),
+        Task("1","Implementar login offline e sincronização posterior", Status.DONE),
+        Task("2","Adicionar opção de comentários nas tarefas", Status.DONE),
+        Task("3", "Implementar sistema de tags/categorias", Status.DONE),
+        Task("4","Criar dashboard com estatísticas visuais", Status.DONE),
     )
 
     override fun onDestroyView() {
